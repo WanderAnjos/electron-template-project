@@ -1,10 +1,11 @@
-import { is } from '@electron-toolkit/utils';
-import { BrowserWindow, app } from 'electron';
-import { createFileRoute, createURLRoute } from 'electron-router-dom';
-import path from 'node:path';
+import path from 'node:path'
 
-declare const MAIN_WINDOW_WEBPACK_ENTRY: string;
-declare const MAIN_WINDOW_PRELOAD_WEBPACK_ENTRY: string;
+import { is } from '@electron-toolkit/utils'
+import { app, BrowserWindow } from 'electron'
+import { createFileRoute, createURLRoute } from 'electron-router-dom'
+
+declare const MAIN_WINDOW_WEBPACK_ENTRY: string
+declare const MAIN_WINDOW_PRELOAD_WEBPACK_ENTRY: string
 
 let mainWindow: BrowserWindow
 
