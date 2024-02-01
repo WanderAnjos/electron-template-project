@@ -1,0 +1,50 @@
+{
+  "name": "sollar-electron",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./.webpack/main/index.js",
+  "scripts": {
+    "start": "electron-forge start",
+    "package": "electron-forge package",
+    "make": "electron-forge make"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@electron-forge/cli": "7.2.0",
+    "@electron-forge/maker-deb": "7.2.0",
+    "@electron-forge/maker-rpm": "7.2.0",
+    "@electron-forge/maker-squirrel": "7.2.0",
+    "@electron-forge/maker-zip": "7.2.0",
+    "@electron-forge/plugin-auto-unpack-natives": "7.2.0",
+    "@electron-forge/plugin-webpack": "7.2.0",
+    "@electron-forge/shared-types": "7.2.0",
+    "@types/react": "18.2.48",
+    "@types/react-dom": "18.2.18",
+    "@vercel/webpack-asset-relocator-loader": "1.7.3",
+    "autoprefixer": "10.4.17",
+    "electron": "28.2.1",
+    "file-loader": "6.2.0",
+    "node-loader": "2.0.0",
+    "postcss": "8.4.33",
+    "tailwindcss": "3.4.1",
+    "ts-loader": "9.5.1",
+    "ts-node": "10.9.2",
+    "tsconfig-paths-webpack-plugin": "4.1.0",
+    "typescript": "5.3.3"
+  },
+  "dependencies": {
+    "@electron-toolkit/utils": "3.0.0",
+    "class-variance-authority": "0.7.0",
+    "clsx": "2.1.0",
+    "electron-router-dom": "1.0.5",
+    "electron-squirrel-startup": "1.0.0",
+    "lucide-react": "0.320.0",
+    "tailwind-merge": "2.2.1",
+    "tailwindcss-animate": "1.0.7",
+    "postcss-loader": "8.1.0",
+    "style-loader": "3.3.4",
+    "css-loader": "6.10.0"
+  }
+}
